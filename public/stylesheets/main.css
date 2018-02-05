@@ -1,0 +1,16 @@
+.thumbnail img {
+	width: 100%;
+}
+
+.thumbnail {
+	padding: 0;
+}
+
+/*
+// dont need it, use .caption
+// .thumbnail .caption-full
+*/
+
+.delete-form {
+	display: inline;
+}
