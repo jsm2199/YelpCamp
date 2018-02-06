@@ -8,7 +8,6 @@
 * To Edit on a different setup
 -----------------
 https://github.com/jsm2199/YelpCamp/settings/keys => button: Add deploy Key
-# Note there key can only be on one repository (seems like a bad limitation)
 ssh-keygen
 git clone git@github.com:jsm2199/YelpCamp.git
 
@@ -51,3 +50,256 @@ git clone git@github.com:jsm2199/YelpCamp.git
 ** Centos7 Docker build, emacs
 
 
+* Cronological Log
+-----------------
+** 20180120
+
+Codepen
+JS Bin
+Github Gists
+Cloud9 (once you get to the backend section of the course)
+
+# s9
+x Chrome
+x Sublime Text
+
+# s13
+
+MDN
+
+# s17
+https://www.lipsum.com/
+
+# sec5 Introduction to CSS
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+# sec6 Intermediate CSS
+
+#lorum ipsum
+https://www.shopify.com/partners/blog/79940998-15-funny-lorem-ipsum-generators-to-shake-up-your-design-mockups
+https://www.cssfontstack.com/
+https://fonts.google.com/
+
+# sec6
+
+border color: #bdc3c7
+date color: #3498db
+h2 color #2c3e50
+
+font: source sans pro
+
+https://unsplash.com
+
+http://fontawesome.io/
+
+# sec8
+
+setInterval(function(){
+    logo.width+=5;
+}, 100)
+
+# sec9
+
+https://developer.mozilla.org/en-US/docs/Glossary/Falsy
+
+truthy?
+!!true
+
+** 20180124
+
+# sec13
+http://underscorejs.org/
+
+http://www.wordapp.io/wpsite/wp-content/uploads/2017/01/google-ranking-factors.png
+
+# sec16
+youmightnotneedjquery.com
+
+https://uigradients.com/#Dull
+
+# sec 17
+background: #2BC0E4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+# sec 19
+http://patatap.com/
+http://paperjs.org/about/
+
+# sec 20
+postman
+
+https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2#
+
+*** https://hackhands.com/how-to-get-started-on-the-mean-stack/
+# Mongo
+cd c:/
+mkdir data
+cd data
+mkdir db
+
+cd c:/
+# in emacs bash
+c:/Program\ Files/MongoDB/Server/3.6/bin/mongod.exe
+
+C:/Program\ Files/nodejs/npm version
+
+C:/Program\ Files/nodejs/node
+
+# Install Express
+# from Command Prompt
+npm install -g express
+npm install -g bower
+npm install -g yarn
+bower install angular
+
+# sec20/angular.html
+
+git clone https://github.com/tastejs/todomvc.git
+
+
+CONT: https://hackhands.com/delving-node-js-express-web-framework/
+o https://www.youtube.com/watch?v=8aGhZQkoFbQ
+
+# sec21
+
+https://github.com/nax3t/webdevbootcamp
+https://ide.c9.io/learnwithcolt/webdevbootcamp
+
+
+https://www.davidbaumgold.com/tutorials/command-line/
+
+** 20180125
+
+# sec22
+npm install cat-me
+
+# sec23
+https://stackoverflow.com/questions/3057526/framework-vs-toolkit-vs-library
+
+# sec24
+npm install ejs --save
+npm install body-parser --save
+
+# sec25
+
+npm install request --save
+
+https://ifttt.com
+https://www.programmableweb.com/
+
+https://i.imgur.com/fXaLTiO.gifv
+https://www.reddit.com/r/TheOA.json
+https://itunes.apple.com/search?term=beatles&entity=song
+
+# issue with postname POST method showing
+app.post("/addfriend", function(req,res) {
+    console.log(req.body);
+# returns:{} 
+# Solution was:
+https://www.udemy.com/the-web-developer-bootcamp/learn/v4/questions/3242924
+# use x-www-form-urlencoded
+
+
+# omdb API key
+http://www.omdbapi.com/?i=tt3896198&apikey=thewdb 
+
+# ktngm
+OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=fec2d96d
+
+** 20180131 yelpcamp 
+
+npm install ejs --save
+npm install body-parser --save
+
+# sec25
+
+npm install request --save
+
+#sec27 MongoDB on c9
+
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+# You should now have mongo 3.6.2 or newer, you can double check with 
+mongo --version 
+
+mkdir data
+echo "mongod --dbpath=data --nojournal" > mongod
+chmod a+x mongod
+
+# if mongo.exe hangs dont use inside cygwin
+https://stackoverflow.com/questions/19912435/mongodb-connecting-to-test-hanging-and-mongo-shell-not-starting?rq=1
+
+#sec28
+
+#GET
+api.github.com/users
+
+** 20180201
+# sec29 RESTfulBlogApp
+
+npm install express mongoose body-parser ejs --save
+
+https://github.com/petruisfan/node-supervisor
+npm install supervisor -g
+
+# ?_method=PUT
+npm install method-override --save
+npm install express-sanitizer --save
+
+<h1>testing</h1>
+<script>alert('Hacked!");</script>
+<p>after testing</p>
+
+Instead of using foundUser.posts.push(post) you will use foundUser.posts.push(post._id) 
+
+** 20180202
+
+http://photosforclass.com/search?text=camping
+
+# sec32
+
+npm install mongoose express passport passport-local passport-local-mongoose body-parser express-session ejs method-override --save
+
+npm install method-override --save
+npm install express-sanitizer --save
+npm install connect-flash --save
+
+{ "_id" : ObjectId("
+5a7691a01625a132cc00011a
+"), "text" : "asdfasdfasdfasd", "__v" : 0, "author" : { "id" : ObjectId("5a7589a811a26f0e3c855f14"), "username" : "asdf" } }
+
+** 20180203
+# sec36
+
+https://cloudinary.com/
+
+** 20180204
+[ see notes-000000.txt for account info ]
+# sec37
+
+# for one repository
+git config user.email "a.b@c.com"
+git config user.name  "a b"
+
+https://github.com/jsm2199/hello-world
+
+# c9-chat
+
+git config --global core.autocrlf true
+
+# heroku
+
+# github Key is already in use
+https://community.c9.io/t/multiple-github-accounts/7108/2
+# Note the key cannot be reused accross repositories (seems like a bad limitation)
+
+# mlabs
+
+[ see notes-wdbc.txt ]
+
+# sec39
+
+# partial
