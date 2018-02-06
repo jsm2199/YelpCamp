@@ -1,0 +1,53 @@
+* -*- mode: org; -*-
++STARTUP: contents
+# These are loose notes for the Udemy WDBC, Colt Steele.
+# Putting them here so the notes can stay consistent across
+# environments like: c9, win10, centos
+---------------------------------------------------------------------
+
+* To Edit on a different setup
+-----------------
+https://github.com/jsm2199/YelpCamp/settings/keys => button: Add deploy Key
+# Note there key can only be on one repository (seems like a bad limitation)
+ssh-keygen
+git clone git@github.com:jsm2199/YelpCamp.git
+
+
+* pre v11 
+-----------------
+** Continue using repository on Windows10, testing Sublime v3.
+   Install Sublime Text Build 3143 x64 Setup.exe
+   Install Postman-win64-5.5.0-Setup.exe
+   Install mongodb-win32-x86_64-2008plus-ssl-3.6.2-signed.msi
+   Install VSCodeSetup-x64-1.19.2.exe
+   Install node-v8.9.4-x64.msi
+   Install Git-2.16.0.2-64-bit.exe
+   Install heroku-cli-x64.exe 20180205
+
+** c9 integration mLabs mongo + local mongo.
+   Works.
+
+** c9 integration.
+   Works.
+
+
+* v11 Deployed
+-----------------
+** Github testing. Continue using repository on Windows10, testing Atom. 
+   Install GitHubDesktopSetup.exe  20180205
+*** Install AtomSetup-x64.exe 20180205
+    Install Package atom-runner
+    Install Package script
+    Install Package atomic-emacs
+    Install Package disable-keybindings
+    Install Package sublime-block-comment
+    Install Package comment (disabled) only single line comments.
+    Install Package node-debugger (disabled) fails, node.exe --debug version compatability?
+    Install Package xatom-debug (disabled) seems to work
+    Install Package xatom-debug-nodejs (disabled) seems to work
+
+* YelpCamp Refactor
+-----------------
+** Centos7 Docker build, emacs
+
+
